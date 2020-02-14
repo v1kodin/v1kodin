@@ -183,15 +183,19 @@
     * .promo__wrapper {
       margin-top: 40px; }
     * .promo__header {
-      font-size: 25px; }
+      font-size: 23px; }
     * .promo__subheader {
-      font-size: 14px; }
+      font-size: 12px; }
     * .promo__icons {
       display: flex;
       flex-direction: column;
-      align-items: center; }
+      align-items: center;
+      margin-top: 30px; }
       * .promo__icons span {
         color: #fff; }
+      * .promo__icons img {
+        margin-top: 20px;
+        margin-bottom: 2px; }
     * .promo .header {
       padding: 0 5px 0 5px; }
       * .promo .header__official {
