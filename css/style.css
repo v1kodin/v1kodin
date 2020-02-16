@@ -76,30 +76,6 @@
       display: flex;
       flex-direction: column;
       align-items: flex-end; }
-  * .button {
-    width: 150px;
-    height: 30px;
-    border-radius: 5px;
-    background-color: #c70101;
-    border: none;
-    color: #fff;
-    font-size: 10px;
-    font-weight: 500;
-    text-transform: uppercase; }
-    * .button_main {
-      margin-top: 67px;
-      width: 300px;
-      height: 50px;
-      font-size: 16px; }
-    * .button_submit {
-      width: 100%;
-      height: 55px;
-      border-radius: 5px;
-      background-color: #c70101;
-      color: #ffffff;
-      font-size: 16px;
-      font-weight: 400;
-      text-transform: uppercase; }
   * .advantages {
     padding: 70px 0 80px 0;
     background-color: #f6f6f6; }
@@ -287,5 +263,106 @@
         border: none; }
     * .catalog__content {
       margin-top: 60px; }
+    * .catalog-item {
+      width: 300px;
+      min-height: 440px;
+      border: 2px solid #e8e8e8;
+      padding: 20px 20px 27px 20px;
+      overflow: hidden; }
+      * .catalog-item__img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: 200px; }
+      * .catalog-item__subtitle {
+        margin-top: 20px;
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center; }
+      * .catalog-item__descr {
+        margin-top: 16px;
+        color: #0d0d0d;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center; }
+      * .catalog-item__link {
+        margin-top: 16px;
+        color: #c70101;
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: underline;
+        display: block;
+        text-align: center; }
+      * .catalog-item hr {
+        margin-top: 19px;
+        margin-bottom: 21px;
+        height: 1px;
+        background-color: #e8e8e8;
+        border-bottom: none; }
+      * .catalog-item__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+      * .catalog-item__old-price {
+        color: #555555;
+        font-size: 14px;
+        font-weight: 300;
+        text-decoration: line-through; }
+      * .catalog-item__price {
+        color: #050505;
+        font-size: 19px;
+        font-weight: 700; }
+      * .catalog-item__wrapper {
+        display: flex;
+        width: calc( 200% + 40px ); }
+      * .catalog-item__content {
+        width: 50%;
+        margin-right: 0px;
+        transform: translateX(-100%); }
+        * .catalog-item__content_active {
+          transform: translateX(0%);
+          margin-right: 20px; }
+      * .catalog-item__list {
+        width: 50%;
+        margin-left: 20px;
+        transform: translateX(0%); }
+        * .catalog-item__list_active {
+          transform: translateX(-100%);
+          margin-left: 0px; }
+  * .button {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #c70101;
+    border: none;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase; }
+    * .button_main {
+      margin-top: 67px;
+      width: 300px;
+      height: 50px;
+      font-size: 16px; }
+    * .button_submit {
+      width: 100%;
+      height: 55px;
+      border-radius: 5px;
+      background-color: #c70101;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: uppercase; }
+    * .button_mini {
+      height: 40px;
+      width: 131px;
+      border-radius: 5px;
+      background-color: #c70101;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 500;
+      text-transform: uppercase;
+      border: none; }
 
 /*# sourceMappingURL=style.css.map */
