@@ -262,13 +262,22 @@
         background-color: #c70101;
         border: none; }
     * .catalog__content {
-      margin-top: 60px; }
+      margin-top: 60px;
+      display: none;
+      justify-content: center;
+      flex-wrap: wrap; }
+      * .catalog__content_active {
+        display: flex; }
     * .catalog-item {
       width: 300px;
       min-height: 440px;
       border: 2px solid #e8e8e8;
       padding: 20px 20px 27px 20px;
-      overflow: hidden; }
+      overflow: hidden;
+      margin-bottom: 20px;
+      margin-right: 20px; }
+      * .catalog-item:nth-last-child(1) {
+        margin-left: 0px; }
       * .catalog-item__img {
         display: block;
         margin: 0 auto;
@@ -326,10 +335,42 @@
       * .catalog-item__list {
         width: 50%;
         margin-left: 20px;
-        transform: translateX(0%); }
+        transform: translateX(0%);
+        padding-right: 20px;
+        transition: 0.5s all;
+        padding-left: 19px;
+        margin-bottom: 0;
+        list-style-type: none; }
         * .catalog-item__list_active {
           transform: translateX(-100%);
           margin-left: 0px; }
+        * .catalog-item__list li {
+          position: relative;
+          color: #555555;
+          font-size: 14px;
+          font-weight: 300;
+          margin-bottom: 20px; }
+          * .catalog-item__list li::before {
+            content: "";
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background-color: #c70101;
+            left: -14px;
+            top: 7px; }
+        * .catalog-item__list a {
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(calc(-50% - 19px));
+          display: block;
+          color: #c70101;
+          font-size: 14px;
+          font-weight: 500;
+          text-decoration: underline;
+          text-transform: uppercase; }
+          * .catalog-item__list a:hover {
+            color: #c70101; }
   * .button {
     width: 150px;
     height: 30px;
