@@ -1,7 +1,7 @@
 * {
   font-family: "Museo Sans Cyrl", sans-serif; }
   * .container {
-    min-width: 950px;
+    /** min-width: 950px */
     margin: 0 auto; }
   * .promo {
     min-height: 650px;
@@ -124,6 +124,70 @@
         font-size: 36px;
         text-transform: uppercase;
         text-align: left; }
+  @media (max-width: 767px) {
+    * .container {
+      min-width: 767px; }
+    * .consultation .title_left {
+      font-size: 34px; } }
+  @media (max-width: 575px) {
+    * .container {
+      min-width: 575px; }
+      * .container .carousel__inner {
+        width: 558px; }
+        * .container .carousel__inner img {
+          width: 100%; }
+    * .header__phone {
+      font-size: 16px; }
+    * .header__official span {
+      font-size: 15px; }
+    * .header__logo {
+      width: 37%; }
+    * .button {
+      width: 146%; }
+    * .promo__header {
+      font-size: 41px; }
+    * .promo__subheader {
+      font-size: 22px; }
+    * .advantages__descr {
+      font-size: 12px;
+      margin-top: 8px; }
+      * .advantages__descr a {
+        font-size: 12px; }
+    * .footer .footer__addr {
+      font-size: 17px; }
+    * .footer .footer__info {
+      width: 270px;
+      height: 170px;
+      padding: 20px; }
+    * .footer .footer__phone {
+      font-size: 24px; }
+    * .catalog__content .catalog-item {
+      width: 264px; }
+    * .consultation .title_left {
+      font-size: 24px; }
+    * .consultation .consultation__descr {
+      font-size: 18px; } }
+  @media (max-width: 320px) {
+    * .container {
+      min-width: 320px; }
+    * .carousel__inner {
+      width: 320px; }
+      * .carousel__inner img {
+        width: 100%; }
+    * .header__official {
+      display: none; }
+    * .header__phone {
+      font-size: 16px;
+      margin-right: 10px; }
+    * .button {
+      margin-right: 10px;
+      width: 140px; }
+    * .consultation .title_left {
+      font-size: 19px; }
+    * .consultation .consultation__descr {
+      font-size: 16px; }
+    * .consultation .feed-form {
+      width: 270px; } }
   * .feed-form {
     margin-top: 36px;
     display: flex;
@@ -161,6 +225,10 @@
       right: -70px;
       border: none;
       background-color: #fff; }
+    * .carousel .slick-dots {
+      display: flex;
+      justify-content: center;
+      list-style-type: none; }
   * .catalog {
     padding-bottom: 100px; }
     * .catalog__tabs {

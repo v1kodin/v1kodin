@@ -6,10 +6,19 @@ $(document).ready(function(){
         nextArrow: '<button type="button" class="slick-next"><img src="img/icons/right.svg"></button>',
         responsive: [
             {
-                breakpoint: 992,
+                breakpoint: 991,
                 settings: {
                     dots: true,
-                    arrows: true
+                    arrows: false
+                }
+            }
+        ]
+        [
+            {
+                breakpoint: 320,
+                settings: {
+                    dots: false,
+                    arrows: false
                 }
             }
         ]
