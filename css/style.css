@@ -176,6 +176,8 @@
         width: 100%; }
     * .header__official {
       display: none; }
+      * .header__official__header {
+        font-size: 30px; }
     * .header__phone {
       font-size: 16px;
       margin-right: 10px; }
@@ -187,7 +189,24 @@
     * .consultation .consultation__descr {
       font-size: 16px; }
     * .consultation .feed-form {
-      width: 270px; } }
+      width: 270px; }
+    * .feed .feed__item {
+      flex-direction: column;
+      align-content: center; }
+    * .feed .feed__img {
+      width: 169px;
+      margin-bottom: 15px;
+      margin-left: 60px; }
+    * .feed .feed__text {
+      margin-left: 0;
+      margin-right: 0; }
+    * .feed .feed__subtitle {
+      text-align: center; }
+    * .feed .feed__count {
+      text-align: center; }
+    * .catalog .catalog__tabs {
+      margin-top: 15px;
+      flex-direction: column; } }
   * .feed-form {
     margin-top: 36px;
     display: flex;
