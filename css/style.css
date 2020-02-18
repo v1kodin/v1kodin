@@ -105,6 +105,9 @@
       * .advantages__descr a {
         color: red;
         text-decoration: underline; }
+    * .advantages__icon_animated {
+      animation-name: heartbeat;
+      animation-duration: 2s; }
   * .title {
     color: #0d0d0d;
     font-size: 30px;
@@ -585,5 +588,21 @@
       border: none; }
   * #consultation, * #order, * #thanks {
     display: none; }
+  * .pageup {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 40px;
+    height: 40px; }
+    * .pageup img {
+      width: 100%; }
+@keyframes heartbeat {
+  form {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.1); }
+  to {
+    transform: scale(1); } }
 
 /*# sourceMappingURL=style.css.map */
