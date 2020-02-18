@@ -97,8 +97,9 @@
       margin-top: 26px;
       color: #0d0d0d;
       font-size: 14px;
-      font-weight: 300;
-      text-align: center; }
+      font-weight: 400;
+      text-align: center;
+      line-height: 17px; }
       * .advantages__descr a {
         color: red;
         text-decoration: underline; }
