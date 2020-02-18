@@ -109,7 +109,7 @@
     text-align: center;
     text-transform: uppercase; }
   * .consultation {
-    height: 680px;
+    min-height: 680px;
     padding: 100px 0 92px 0;
     background: url(../img/bg/bg-foot.png) center center/cover no-repeat; }
     * .consultation__descr {
@@ -124,6 +124,12 @@
         font-size: 36px;
         text-transform: uppercase;
         text-align: left; }
+    * .consultation .error {
+      border: 1px solid red;
+      text-align: center; }
+    * .consultation label.error {
+      border: none;
+      color: #fff; }
   @media (max-width: 767px) {
     * .container {
       min-width: 767px; }
@@ -450,7 +456,7 @@
       text-transform: uppercase;
       border: none; }
     * .button_consul {
-      margin-top: 40px;
+      margin-top: 67px;
       width: 300px;
       height: 50px;
       font-size: 16px;
@@ -569,6 +575,11 @@
       text-align: center; }
     * .modal_mini {
       min-height: 140px; }
+    * .modal .error {
+      border: 1px solid red;
+      text-align: center; }
+    * .modal label.error {
+      border: none; }
   * #consultation, * #order, * #thanks {
     display: none; }
 
