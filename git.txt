@@ -1,0 +1,9 @@
+git init         сдели за этой папкой
+git config --local user.name 'Greg'
+git config --local user.email vikodin55@yandex.ru
+git config --global user.email vikodin55@yandex.ru
+git status     состояние репозитория
+git add -A    добавить все файлы в индекс
+git add index.sass Добваить какой ибо один файл
+git commit -a -m"что сделано на этой контрольной точке"
+git remote add origin git@github.com:v1kodin/v1kodin.git добовление удаленного репозитория
